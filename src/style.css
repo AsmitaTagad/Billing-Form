@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 12px;
+}
+thead{
+  background-color: rgb(38, 109, 202);
+}
+td{
+  border: 1px solid black;
+  padding: 10px;
+}
+button{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color:rgb(38, 109, 202); ;
+}
+button:hover{
+  background-color: #ccc;
+}
+
+.Name{
+  margin-top: 20px;
+}
